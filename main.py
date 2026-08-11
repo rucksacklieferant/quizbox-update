@@ -1,6 +1,10 @@
 from machine import Pin, PWM
 import time
 
+# Onboard-LED bei Pico W / Pico 2 WH einschalten
+onboard_led = Pin("LED", Pin.OUT)
+onboard_led.value(1) # 1 = an, 0 = aus
+
 # ==========================================
 # 1. HARDWARE-PINBELEGUNG
 # ==========================================
