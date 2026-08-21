@@ -57,7 +57,7 @@ def reset_spiel():
     """Setzt das System in den Startzustand zurück"""
     alle_buzzer_lichter(0)
     # Raumlicht auf helles Neutrallicht/Weiß (z. B. 80% Rot, 80% Grün, 80% Blau)
-    set_raum_farbe(80, 80, 80)
+    set_raum_farbe(0, 0, 0)
 
 # ==========================================
 # 3. HAUPTPROGRAMM (SPIELLOGIK)
