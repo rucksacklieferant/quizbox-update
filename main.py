@@ -99,7 +99,7 @@ while True:
         elif buzzer3.value() == 0:
             box_gesperrt = True
             led3.value(1)
-            set_raum_farbe(0, 0, 100) # 100% Blau
+            set_raum_farbe(100, 30, 0) # 100% Blau
             print("Spieler 3 hat gebuzzert!")
             time.sleep_ms(50)
             
